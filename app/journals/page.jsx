@@ -101,7 +101,6 @@ export default function JournalEntries() {
               <p className="text-gray-300 text-sm leading-relaxed">
                 {entry.summary?.analysis || "No analysis available"}
               </p>
-              <p className="text-xs text-gray-500 mt-4">CID: {entry.cid}</p>
             </div>
           ))}
         </div>
